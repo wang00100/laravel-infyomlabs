@@ -1,0 +1,5 @@
+<!-- $FIELD_NAME_TITLE$ Field -->
+<div class="form-group">
+    {!! Form::label('$FIELD_NAME$', '$FIELD_NAME_TITLE$:') !!}
+    <p><vince-tags value="{{ $$MODEL_NAME_CAMEL$->$FIELD_NAME$ }}" input_id="$FIELD_NAME$" data_url="$DATA_URL$"  /></p>
+</div>

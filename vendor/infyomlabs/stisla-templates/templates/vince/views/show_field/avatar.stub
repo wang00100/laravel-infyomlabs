@@ -1,0 +1,5 @@
+<!-- $FIELD_NAME_TITLE$ Field -->
+<div class="form-group">
+    {!! Form::label('$FIELD_NAME$', '$FIELD_NAME_TITLE$:') !!}
+    <p><img src="{{ $$MODEL_NAME_CAMEL$->$FIELD_NAME$ }}" style="max-width:240px; width:100%;" /></p>
+</div>

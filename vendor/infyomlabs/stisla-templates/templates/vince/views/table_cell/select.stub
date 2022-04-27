@@ -1,0 +1,4 @@
+
+<td>
+    <vince-tags value="{{ $$MODEL_NAME_CAMEL$->$FIELD_NAME$ }}" input_id="$FIELD_NAME$" data_url="$DATA_URL$" />
+</td>
