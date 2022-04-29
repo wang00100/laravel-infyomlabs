@@ -24,7 +24,7 @@ php artisan infyom:rollback article api_scaffold
 
 //分类
 php artisan infyom:api_scaffold cat --fieldsFile=resources/model_schemas/cat.json --paginate=60
-php artisan infyom:api_scaffold --fromTable --tableName= --paginate=60
+php artisan infyom:api_scaffold --fromTable --tableName=enroll --paginate=60
 
 //从表中生产
 ```
